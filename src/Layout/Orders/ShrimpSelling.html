@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bán tôm</title>
+    <!-- Bootstrap start-->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap end -->
+    <link rel="stylesheet" href="../../index.css" />
+  </head>
+
+  <body class="bg-dark">
+    <div class="bg-white col-sm-8">
+      <div>
+        <h2 class="text-stfarm text-center"><strong>THÔNG TIN TÔM CẦN BÁN</strong></h2>
+      </div>
+      <div>
+        <form class="col-sm-10 offset-lg-1 ">
+          <div class="form-group row">
+            <label for="slShrimpType" class="col-sm-5 col-form-label">Loại tôm</label>
+            <div class="col-sm-7">
+              <select id="slShrimpType" class="form-control">
+                <option selected value="-1">Chọn loại tôm</option>
+                <option value="0">Tôm thẻ 80 con/kg</option>
+                <option value="1">Tôm thẻ 50 con/kg</option>
+                <option value="2">Tôm sú 30 con/kg</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="slShrimpSizing" class="col-sm-5 col-form-label">Loại kích thước</label>
+            <div class="col-sm-7">
+              <select id="slShrimpSizing" class="form-control">
+                <option selected value="-1">Chọn loại kích thước</option>
+                <option value="0">Nhỏ</option>
+                <option value="1">Vừa</option>
+                <option value="2">Lớn</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="txtEstimatedQuality" class="col-sm-5 col-form-label">Sản lượng ước tính lúc thu hoạch</label>
+            <div class="col-sm-7">
+              <input type="text" id="txtEstimatedQuality" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="dtpEstimatedCollectDay" class="col-sm-5 col-form-label">Thời gian dự tính lúc thu hoạch</label>
+            <div class="col-sm-7">
+              <input type="date" id="dtpEstimatedCollectDay" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="btnChooseFile" class="col-sm-5 col-form-label">Hình ảnh</label>
+            <div class="col-sm-7">
+              <input type="file" class="form-control-file" id="btnChooseFile" multiple="multiple" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="slShrimpSizing" class="col-sm-5 col-form-label">Số lượng</label>
+            <div class="col-sm-4">
+              <input type="text" id="txtEstimatedQuality" class="form-control" />
+            </div>
+            <div class="col-sm-3">
+              <select id="slUnit" class="form-control ">
+                <option selected value="-1">Chọn đơn vị</option>
+                <option value="0">kg</option>
+                <option value="1">con</option>
+                <option value="2">bao</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="dtpEstimatedCollectDay" class="col-sm-5 col-form-label">Số điện thoại</label>
+            <div class="col-sm-7">
+              <input type="text" id="txtEstimatedQuality" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="dtpEstimatedCollectDay" class="col-sm-5 col-form-label">Người bán</label>
+            <div class="col-sm-7">
+              <input type="text" id="txtEstimatedQuality" class="form-control" />
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="dtpEstimatedCollectDay" class="col-sm-5 col-form-label">Địa chỉ</label>
+            <div class="col-sm-7">
+              <input type="text" id="txtEstimatedQuality" class="form-control" />
+            </div>
+          </div>
+          <div class="text-center">
+            <input type="submit" value="Đăng" class="btn btn-primary btn-stfarm" id="btnSubmit" />
+            <input type="button" value="Hủy" class="btn btn-danger" id="btnCancel" />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
