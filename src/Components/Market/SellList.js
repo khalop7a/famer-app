@@ -13,9 +13,9 @@ class SellList extends Component {
   render() {
     return (
       <div className="bg-light col-sm-8 offset-lg-2">
-        {/* <SellListItem />
-        <SellListItem />
-        <SellListItem /> */}
+        {/*<SellListItem />*/}
+        {/*<SellListItem />*/}
+        {/*<SellListItem />*/}
         {/* <SellListItemDetail /> */}
       </div>
     );

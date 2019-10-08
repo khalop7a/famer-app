@@ -22,19 +22,27 @@ class Header extends Component {
               <li className="nav-item dropdown">
                 <NavLink activeClassName="nav-link text-dark" data-toggle="dropdown" to="/">THỊ TRƯỜNG</NavLink>
                 <div className="dropdown-menu">
-                  <NavLink className="dropdown-item" to="/thi-truong/mua-tom">MUA TÔM</NavLink>
-                  <NavLink className="dropdown-item" to="/thi-truong/ban-tom">ĐẶT MUA TÔM</NavLink>
+                  <NavLink className="dropdown-item" to="/thi-truong/ban-tom">BÁN TÔM</NavLink>
+                  <NavLink className="dropdown-item" to="/thi-truong/mua-tom">ĐẶT MUA TÔM</NavLink>
                 </div>
               </li>
               <li className="nav-item ">
                 <NavLink activeClassName="nav-link text-dark" to="">VỀ CHÚNG TÔI</NavLink>
               </li>
+              <li className="nav-item dropdown">
+                                            <NavLink activeClassName="nav-link text-dark" data-toggle="dropdown" to="/">ĐƠN HÀNG</NavLink>
+                                            <div className="dropdown-menu">
+                                              <NavLink className="dropdown-item" to="/thi-truong/ban-tom">BÁN TÔM</NavLink>
+                                              <NavLink className="dropdown-item" to="/thi-truong/mua-tom">ĐẶT MUA TÔM</NavLink>
+                                            </div>
+                                          </li>
               <li className="nav-item ">
-                <a className="nav-link text-dark" href="sign-up">Đăng Nhập</a>
+                <NavLink activeClassName="nav-link text-dark" to="sign-in">Đăng Nhập</NavLink>
               </li>
               <li className="nav-item ">
-                <a className="nav-link text-dark" href="sign-in">Đăng kí</a>
+                <a className="nav-link text-dark" href="sign-up">Đăng kí</a>
               </li>
+
             </ul>
           </div>
           {/*end nav pill*/}

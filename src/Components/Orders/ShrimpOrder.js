@@ -86,5 +86,4 @@ class ShrimpOrder extends Component {
     );
   }
 }
-
 export default ShrimpOrder;
