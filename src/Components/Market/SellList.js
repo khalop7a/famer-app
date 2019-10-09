@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import SellListItemDetail from "./SellList-Item-Detail";
+import SellListItem from "./SellList-Item";
 
 class SellList extends Component {
   constructor(props) {
@@ -13,9 +14,9 @@ class SellList extends Component {
   render() {
     return (
       <div className="bg-light col-sm-8 offset-lg-2">
-        {/*<SellListItem />*/}
-        {/*<SellListItem />*/}
-        {/*<SellListItem />*/}
+        <SellListItem />
+        <SellListItem />
+        <SellListItem />
         {/* <SellListItemDetail /> */}
       </div>
     );

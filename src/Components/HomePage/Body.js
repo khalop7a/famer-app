@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import Banner from "./Banner";
 class Body extends Component {
     constructor(props) {
         super(props);
@@ -12,6 +13,7 @@ class Body extends Component {
     render() {
         return (
             <div>
+                <Banner />
                 {/*GIải pháp từ STFARM*/}
                 <div className="container">
                     <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">GIẢI PHÁP </span><span>từ</span><span

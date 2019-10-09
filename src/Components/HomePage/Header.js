@@ -30,10 +30,10 @@ class Header extends Component {
                 <NavLink activeClassName="nav-link text-dark" to="">VỀ CHÚNG TÔI</NavLink>
               </li>
               <li className="nav-item dropdown">
-                                            <NavLink activeClassName="nav-link text-dark" data-toggle="dropdown" to="/">ĐƠN HÀNG</NavLink>
+                                            <NavLink activeClassName="nav-link text-dark" data-toggle="dropdown" to="/">TRAO ĐỔI</NavLink>
                                             <div className="dropdown-menu">
-                                              <NavLink className="dropdown-item" to="/thi-truong/ban-tom">BÁN TÔM</NavLink>
-                                              <NavLink className="dropdown-item" to="/thi-truong/mua-tom">ĐẶT MUA TÔM</NavLink>
+                                              <NavLink className="dropdown-item" to="/trao-doi/dang-ban">ĐĂNG BÁN</NavLink>
+                                              <NavLink className="dropdown-item" to="/trao-doi/tim-mua">TÌM MUA</NavLink>
                                             </div>
                                           </li>
               <li className="nav-item ">
@@ -47,9 +47,7 @@ class Header extends Component {
           </div>
           {/*end nav pill*/}
 
-          {/*banner*/}
-          <p className="banner" />
-          {/*end banner*/}
+
 
           {/*Header*/}
         </div>
