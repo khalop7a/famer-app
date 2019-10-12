@@ -41,14 +41,14 @@ class SignIn extends Component {
                     </div>
 
                     <div className="form-group row">
-                        <label className="control-label col-sm-3" htmlFor="userName">Tên đăng nhập</label>
+                        <label className="control-label offset-lg-1 col-sm-2" htmlFor="userName">Tên đăng nhập</label>
                         <div className="col-sm-7">
                             <input type="text" className="form-control" id="userName" name="userName" required value={this.state.userName} onChange={this.handleChange} />
                         </div>
                         <p className="text-danger">(*)</p>
                     </div>
                     <div className="form-group row">
-                        <label className="control-label col-sm-3" htmlFor="pwd">Mật khẩu</label>
+                        <label className="control-label offset-lg-1 col-sm-2" htmlFor="pwd">Mật khẩu</label>
                         <div className="col-sm-7">
                             <input type="password" className="form-control" id="pwd" name="pwd" required value={this.state.pwd} onChange={this.handleChange} />
                         </div>
