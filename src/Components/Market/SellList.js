@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import SellListItemDetail from "./SellList-Item-Detail";
 import SellListItem from "./SellList-Item";
 
 class SellList extends Component {

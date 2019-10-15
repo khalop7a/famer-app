@@ -9,6 +9,18 @@ class Header extends Component {
     alert("Header home page");
   }
   render() {
+    const checkActive = (match, location) => {
+      //some additional logic to verify you are in the home URI
+      //if (!location) return false;
+        const {pathname} = location;
+        if (pathname === "/sign-up") return false;
+        return true;
+    }
+    const checkActive1 = (match, location) => {
+        const {pathname} = location;
+        if (pathname === "/sign-in") return false;
+        return true;
+    }
     return (
       <div>
         {/*Header*/}
@@ -36,11 +48,12 @@ class Header extends Component {
                 <NavLink className="dropdown-item" to="/trao-doi/tim-mua">TÌM MUA</NavLink>
               </div>
             </li>
-            <li className="nav-item ">
-              <NavLink activeClassName="nav-link text-dark" to="sign-in">Đăng Nhập</NavLink>
+            <li className="nav-item">
+              <NavLink to="/sign-in" activeClassName="nav-link text-dark" isActive={checkActive1}>ĐĂNG NHẬP</NavLink>
+              
             </li>
             <li className="nav-item ">
-              <NavLink activeClassName="nav-link text-dark" to="sign-up">Đăng Ký</NavLink>
+              <NavLink to="/sign-up" activeClassName="nav-link text-dark" isActive={checkActive}>ĐĂNG KÝ</NavLink>
             </li>
 
           </ul>

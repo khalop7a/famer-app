@@ -35,7 +35,7 @@ class SignUp extends Component {
 
   render() {
     return (
-      <form onSubmit={this.handleSubmit} className="FormFields" onSubmit={this.handleSubmit}>
+      <form onSubmit={this.handleSubmit} className="FormFields" >
         <div className="bg-white col-sm-12 p-3">
           <div className="row">
             <div className="bg-info offset-lg-1 col-sm-3 d-flex align-items-center">

@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 
 class Footer extends Component {
-    constructor(props) {
-        super(props);
-       // this.Footer = this.Footer.bind(this);
-    }
+    // constructor(props) {
+    //     super(props);
+    //     this.Footer = this.Footer.bind(this);
+    // }
 
     render() {
         return (

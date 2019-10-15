@@ -11,8 +11,8 @@ class SignIn extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
-    handleChange(e) {
-        let target = e.target;
+    handleChange(event) {
+        let target = event.target;
         let value = target.type === 'checkbox' ? target.checked : target.value;
         let name = target.name;
 
@@ -21,17 +21,17 @@ class SignIn extends Component {
         });
     }
 
-    handleSubmit(e) {
-        e.preventDefault();
+    handleSubmit(event) {
         alert('Success');
-        // console.log('The form was submitted with the following data:');
+        event.preventDefault();
         // console.log(this.state);
+        // console.log('The form was submitted with the following data:');
     }
-
+        
     render() {
 
         return (
-            <form onSubmit={this.handleSubmit} className="FormFields" onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit} className="FormFields">
                 <div className="bg-white col-sm-8 offset-lg-2 p-3">
 
                     <div className="text-stfarm text-center">
@@ -56,7 +56,7 @@ class SignIn extends Component {
                     </div>
                     <div className="form-group row">
                         <div className="offset-lg-3 col-sm-7">
-                            <p><a href="#">Quên mật khẩu?</a></p>
+                            <p><a href="#" >Quên mật khẩu?</a></p>
                         </div>
                     </div>
                     <div className="form-group row">
@@ -70,7 +70,7 @@ class SignIn extends Component {
                         </div>
                     </div>
 
-                </div >
+                </div>
             </form>
         )
     }
