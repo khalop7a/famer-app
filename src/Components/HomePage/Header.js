@@ -9,13 +9,14 @@ class Header extends Component {
     alert("Header home page");
   }
   render() {
+    // Kiểm tra điều hướng của Đăng ký
     const checkActive = (match, location) => {
       //some additional logic to verify you are in the home URI
-      //if (!location) return false;
         const {pathname} = location;
         if (pathname === "/sign-up") return false;
         return true;
     }
+    //Kiểm tra điều hướng của Đăng nhập
     const checkActive1 = (match, location) => {
         const {pathname} = location;
         if (pathname === "/sign-in") return false;
