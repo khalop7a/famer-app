@@ -1,22 +1,23 @@
 import React, { Component } from "react";
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 class Header extends Component {
   constructor(props) {
     super(props);
     this.Header = this.Header.bind(this);
   }
-  Header(){
-       alert("Header home page");
+  Header() {
+    alert("Header home page");
   }
-  render(){
-   return (
-        <div>
-          {/*Header*/}
-          {/*nav pill*/}
-          <div id="header">
-            <ul className="nav nav-pills justify-content-xl-end navbar-expand-lg ">
-              <li className="nav-item">
-                <NavLink activeClassName="nav-link text-dark" to="/">TRANG CHỦ</NavLink>
+  render() {
+    return (
+      <div>
+        {/*Header*/}
+        {/*nav pill*/}
+        <div id="header">
+          <ul className="nav nav-pills justify-content-xl-end navbar-expand-lg ">
+            <li className="nav-item">
+              <NavLink activeClassName="nav-link text-dark" to="/">TRANG CHỦ</NavLink>
+
 
               </li>
               <li className="nav-item dropdown">
@@ -43,15 +44,16 @@ class Header extends Component {
                 <a className="nav-link text-dark" href="sign-up">Đăng kí</a>
               </li>
 
-            </ul>
-          </div>
-          {/*end nav pill*/}
 
-
-
-          {/*Header*/}
+          </ul>
         </div>
-      );
-    }
-  };
-  export default Header;
+        {/*end nav pill*/}
+
+
+
+        {/*Header*/}
+      </div>
+    );
+  }
+};
+export default Header;
