@@ -17,7 +17,7 @@ class Body extends Component {
                 {/*GIải pháp từ STFARM*/}
                 <div className="container">
                     <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">GIẢI PHÁP </span><span>từ</span><span
-                        className="bg-organe"> STFARM</span></h1></div>
+                        className="text-warning"> STFARM</span></h1></div>
                     <div className="row">
                         <div className="col-5 text-center"><img src="./picture-stfarm/value.png"/></div>
                         <div className="col">
@@ -40,7 +40,7 @@ class Body extends Component {
                 <div style={{background: '#fafafa'}}>
                     <div className="container">
                         <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">LỢI ÍCH </span><span>từ</span><span
-                            className="bg-organe"> STFARM</span></h1></div>
+                            className="text-warning"> STFARM</span></h1></div>
                         <div className="row">
                             <div className="col-5 text-center"><img src="picture-stfarm/value.png"/></div>
                             <div className="col">
@@ -57,7 +57,7 @@ class Body extends Component {
                 {/*Sử dụng STFARM*/}
                 <div className="container">
                     <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span
-                        className="text-primary">SỬ DỤNG </span><span className="bg-organe"> STFARM </span><span>như thế nào?</span>
+                        className="text-primary">SỬ DỤNG </span><span className="text-warning"> STFARM </span><span>như thế nào?</span>
                     </h1>
                     </div>
                     <div className="row">
@@ -79,7 +79,7 @@ class Body extends Component {
                 <div style={{background: '#fafafa'}}>
                     <div className="container">
                         <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">BĂT ĐẦU </span><span>cùng</span><span
-                            className="bg-organe"> STFARM </span></h1>
+                            className="text-warning"> STFARM </span></h1>
                         </div>
                         <div className="row">
                             <div className="col-4">
@@ -141,7 +141,7 @@ class Body extends Component {
                 <div className="container">
                     <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span
                         className="text-primary">DỊCH VỤ </span><span>từ</span><span
-                        className="bg-organe"> STFARM </span></h1>
+                        className="text-warning"> STFARM </span></h1>
                     </div>
                     {/*<div class="row">*/}
                     <div className="container" style={{marginLeft: '10%'}}>

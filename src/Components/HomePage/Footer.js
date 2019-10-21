@@ -10,7 +10,7 @@ class Footer extends Component {
     return (
       <div>
         {/*form footer*/}
-        <form className="bg-stfarm text-white">
+        <form className="bg-info text-white">
           <div className="container">
             <div className="row">
               <div className="col-3">

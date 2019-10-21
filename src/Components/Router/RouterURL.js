@@ -17,6 +17,7 @@ class RouterURL extends Component {
                     <Route path="/sign-in" component={SignIn} />
                     <Route path="/sign-up" component={SignUp} />
                     <Route path="/thi-truong/ban-tom" component={SellList} />
+                    <Route path="/thi-truong/dat-mua-tom" component={SellList} />
                     <Route component={Body} />
                 </Switch>
             </div>
