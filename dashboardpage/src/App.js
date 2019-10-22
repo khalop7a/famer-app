@@ -9,38 +9,38 @@ import Weather from "./components/Weather";
 
 function App() {
   return (
-    <div className="App bg-info p-2">
-      <div className="row justify-content-between pb-2">
-        <div className="col-sm-4 bg-light">
-          <Map />
-        </div>
-        <div className="col-sm-4 bg-white">
-          <div className="row">
-            <div className="col-sm-6">
-              <Salinity />
-            </div>
-            <div className="col-sm-6">
-              <WaterSource />
-            </div>
+      <div className="App">
+        <div className="row justify-content-between pb-2">
+          <div className="bg-dark" style={{width: "33%"}}>
+            <Map />
           </div>
-          <ShrimpPriceChart />
+          <div className="bg-dark" style={{width: "33%"}}>
+            <div className="row">
+              <div className="col-sm-6">
+                <Salinity />
+              </div>
+              <div className="col-sm-6">
+                <WaterSource />
+              </div>
+            </div>
+            <ShrimpPriceChart />
+          </div>
+          <div className="bg-dark" style={{width: "33%"}}>
+            <News />
+          </div>
         </div>
-        <div className="col-sm-4 bg-light">
-          <News />
+        <div className="row justify-content-between">
+          <div className="col-sm-4 bg-light">
+            <Weather />
+          </div>
+          <div className="col-sm-4 bg-light">
+            <ShrimpPriceChart />
+          </div>
+          <div className="col-sm-4 bg-light">
+            <Chat />
+          </div>
         </div>
       </div>
-      <div className="row justify-content-between">
-        <div className="col-sm-4 bg-light">
-          <Weather />
-        </div>
-        <div className="col-sm-4 bg-light">
-          <ShrimpPriceChart />
-        </div>
-        <div className="col-sm-4 bg-light">
-          <Chat />
-        </div>
-      </div>
-    </div>
   );
 }
 
