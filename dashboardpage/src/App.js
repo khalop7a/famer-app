@@ -1,7 +1,7 @@
 import React from "react";
 import ShrimpPriceChart from "./components/ShrimpPriceChart";
 import Map from "./components/Map";
-import Chat from "./components/Chat";
+import Chat from "./components/components-chat/Chat";
 import News from "./components/News";
 import Salinity from "./components/Salinity";
 import WaterSource from "./components/WaterSource";
@@ -37,7 +37,7 @@ function App() {
           <ShrimpPriceChart />
         </div>
         <div className="col-sm-4 bg-light">
-          <Chat />
+          <Chat/>
         </div>
       </div>
     </div>

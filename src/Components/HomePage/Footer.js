@@ -17,7 +17,8 @@ class Footer extends Component {
                 <h4 style={{ fontWeight: "bold" }}>GIỚI THIỆU</h4>
                 <div>Về STFARM</div>
                 <div>Thành viên</div>
-                <div>Hỏi đáp</div>
+                {/* <div>Hỏi đáp</div> */}
+                <div><a href="#">Hỏi đáp</a></div>
               </div>
               <div className="col-3">
                 <h4 style={{ fontWeight: "bold" }}>LIÊN HỆ</h4>
