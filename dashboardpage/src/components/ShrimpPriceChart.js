@@ -15,29 +15,29 @@ class ShrimpPriceChart extends Component {
           chartType="Line"
           loader={<div>Loading Chart</div>}
           data={[
-            [{ type: "date", label: "Day" }, "Average temperature"],
-            [new Date(2014, 0), 5.7],
-            [new Date(2014, 1), 8.7],
-            [new Date(2014, 2), 12],
-            [new Date(2014, 3), 15.3],
-            [new Date(2014, 4), 18.6],
-            [new Date(2014, 5), 20.9],
-            [new Date(2014, 6), 19.8],
-            [new Date(2014, 7), 16.6],
-            [new Date(2014, 8), 13.3],
-            [new Date(2014, 9), 9.9],
-            [new Date(2014, 10), 6.6],
-            [new Date(2014, 11), 4.5]
+            [{ type: "date", label: "Tháng" }, "Giá tôm trung bình"],
+            [new Date(2019, 0), 5.7],
+            [new Date(2019, 1), 8.7],
+            [new Date(2019, 2), 12],
+            [new Date(2019, 3), 15.3],
+            [new Date(2019, 4), 18.6],
+            [new Date(2019, 5), 20.9],
+            [new Date(2019, 6), 19.8],
+            [new Date(2019, 7), 16.6],
+            [new Date(2019, 8), 13.3],
+            [new Date(2019, 9), 9.9],
+            [new Date(2019, 10), 6.6],
+            [new Date(2019, 11), 4.5]
           ]}
           options={{
             chart: {
-              title: "Average Temperatures and Daylight in Iceland Throughout the Year"
+              title: "Giá tôm trung bình các tháng"
             },
             // width: 300,
             height: 300,
             series: {
               // Gives each series an axis name that matches the Y-axis below.
-              0: { axis: "Temps" }
+              0: { axis: "Giá" }
             },
             axes: {
               // Adds labels to each axis; they don't have to match the axis names.

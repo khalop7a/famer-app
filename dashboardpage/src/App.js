@@ -9,12 +9,12 @@ import Weather from "./components/Weather";
 
 function App() {
   return (
-      <div className="App">
-        <div className="row justify-content-between pb-2">
-          <div className="bg-dark" style={{width: "33%"}}>
+      <div className="App bg-light">
+        <div className="row justify-content-between py-2">
+          <div className="bg-white" style={{width: "33%"}}>
             <Map />
           </div>
-          <div className="bg-dark" style={{width: "33%"}}>
+          <div className="bg-white" style={{width: "33%"}}>
             <div className="row">
               <div className="col-sm-6">
                 <Salinity />
@@ -25,18 +25,18 @@ function App() {
             </div>
             <ShrimpPriceChart />
           </div>
-          <div className="bg-dark" style={{width: "33%"}}>
+          <div className="bg-white" style={{width: "33%"}}>
             <News />
           </div>
         </div>
-        <div className="row justify-content-between">
-          <div className="col-sm-4 bg-light">
+        <div className="row justify-content-between pb-2">
+          <div className="bg-white" style={{width: "33%"}}>
             <Weather />
           </div>
-          <div className="col-sm-4 bg-light">
+          <div className="bg-white" style={{width: "33%"}}>
             <ShrimpPriceChart />
           </div>
-          <div className="col-sm-4 bg-light">
+          <div className="bg-white" style={{width: "33%"}}>
             <Chat />
           </div>
         </div>
