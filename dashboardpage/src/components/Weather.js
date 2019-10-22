@@ -13,19 +13,19 @@ class Weather extends Component {
         </div>
         <div className="row">
           <div className="col-sm-4 text-center">
-            <img src="shrimp-logo.jpg" alt="icon" width={150} height={150} />
+            <img src="shrimp_logo.jpg" alt="icon" width={150} height={150} />
             <p>Nhiệt độ: 30 C</p>
             <p>Độ ẩm: 40%</p>
             <p>Địa điểm: Sóc Trăng</p>
           </div>
           <div className="col-sm-4 text-center">
-            <img src="shrimp-logo.jpg" alt="icon" width={150} height={150} />
+            <img src="shrimp_logo.jpg" alt="icon" width={150} height={150} />
             <p>Nhiệt độ: 30 C</p>
             <p>Độ ẩm: 35%</p>
             <p>Địa điểm: Cần Thơ</p>
           </div>
           <div className="col-sm-4 text-center">
-            <img src="shrimp-logo.jpg" alt="icon" width={150} height={150} />
+            <img src="shrimp_logo.jpg" alt="icon" width={150} height={150} />
             <p>Nhiệt độ: 30 C</p>
             <p>Độ ẩm: 35%</p>
             <p>Địa điểm: Cần Thơ</p>
