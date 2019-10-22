@@ -8,7 +8,11 @@ class Salinity extends Component {
   render() {
     return (
       <div className="">
-        <h3>ĐỘ MẶN: HÀO</h3>
+        <div className="text-center">
+          <h2>Độ mặn</h2>
+          <p>35%</p>
+        </div>
+
       </div>
     );
   }

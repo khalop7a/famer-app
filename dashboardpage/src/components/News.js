@@ -8,7 +8,19 @@ class News extends Component {
   render() {
     return (
       <div className="">
-        <h3>Tin tức: HÀO</h3>
+        <div className="text-center">
+          <h2>Tin tức thông báo</h2>
+        </div>
+        <div className="row">
+          <div className="offset-lg-1 col-sm-5">
+            <p><a href="#">Giá tôm</a></p>
+            <p><a href="#">Sản lượng</a></p>
+          </div>
+          <div className="offset-lg-1 col-sm-5">
+            <p><a href="#">Thời tiết</a></p>
+            <p><a href="#">Độ mặn</a></p>
+          </div>
+        </div>
       </div>
     );
   }

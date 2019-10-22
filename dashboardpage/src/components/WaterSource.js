@@ -8,7 +8,11 @@ class WaterSource extends Component {
   render() {
     return (
       <div className="">
-        <h3>Nguồn nước: HÀO</h3>
+        <div className="text-center">
+          <h2>Nguồn nước</h2>
+          <p>Sạch</p>
+
+        </div>
       </div>
     );
   }
