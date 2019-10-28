@@ -16,7 +16,7 @@ class Body extends Component {
                 <Banner />
                 {/*GIải pháp từ STFARM*/}
                 <div className="container">
-                    <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">GIẢI PHÁP </span><span>từ</span><span
+                    <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-info">GIẢI PHÁP </span><span>từ</span><span
                         className="text-warning"> STFARM</span></h1></div>
                     <div className="row">
                         <div className="col-5 text-center"><img src="./picture-stfarm/value.png"/></div>
@@ -39,7 +39,7 @@ class Body extends Component {
                 {/*LỢI ÍCH từ STFARM*/}
                 <div style={{background: '#fafafa'}}>
                     <div className="container">
-                        <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">LỢI ÍCH </span><span>từ</span><span
+                        <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-info">LỢI ÍCH </span><span>từ</span><span
                             className="text-warning"> STFARM</span></h1></div>
                         <div className="row">
                             <div className="col-5 text-center"><img src="picture-stfarm/value.png"/></div>
@@ -57,7 +57,7 @@ class Body extends Component {
                 {/*Sử dụng STFARM*/}
                 <div className="container">
                     <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span
-                        className="text-primary">SỬ DỤNG </span><span className="text-warning"> STFARM </span><span>như thế nào?</span>
+                        className="text-info">SỬ DỤNG </span><span className="text-warning"> STFARM </span><span>như thế nào?</span>
                     </h1>
                     </div>
                     <div className="row">
@@ -78,7 +78,7 @@ class Body extends Component {
                 {/*Bắt đầu cùng STFARM*/}
                 <div style={{background: '#fafafa'}}>
                     <div className="container">
-                        <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-primary">BĂT ĐẦU </span><span>cùng</span><span
+                        <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-info">BẮT ĐẦU </span><span>cùng</span><span
                             className="text-warning"> STFARM </span></h1>
                         </div>
                         <div className="row">
@@ -140,7 +140,7 @@ class Body extends Component {
                 {/*DỊch vụ từ STFARM*/}
                 <div className="container">
                     <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span
-                        className="text-primary">DỊCH VỤ </span><span>từ</span><span
+                        className="text-info">DỊCH VỤ </span><span>từ</span><span
                         className="text-warning"> STFARM </span></h1>
                     </div>
                     {/*<div class="row">*/}

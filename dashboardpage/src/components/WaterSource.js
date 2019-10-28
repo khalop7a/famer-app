@@ -9,9 +9,8 @@ class WaterSource extends Component {
     return (
       <div className="">
         <div className="text-center">
-          <h2>Nguồn nước</h2>
-          <p>Sạch</p>
-
+          <h5 className="text-warning">Nguồn nước</h5>
+          <h1 className="text-info">Sạch</h1>
         </div>
       </div>
     );
