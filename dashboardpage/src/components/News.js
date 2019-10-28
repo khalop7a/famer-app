@@ -9,16 +9,24 @@ class News extends Component {
     return (
       <div className="">
         <div className="text-center">
-          <h2>Tin tức thông báo</h2>
+          <h5 className="text-warning">Tin tức thông báo</h5>
         </div>
         <div className="row">
           <div className="offset-lg-1 col-sm-5">
-            <p><a href="#">Giá tôm</a></p>
-            <p><a href="#">Sản lượng</a></p>
+            <p>
+              <a href="#">Giá tôm</a>
+            </p>
+            <p>
+              <a href="#">Sản lượng</a>
+            </p>
           </div>
           <div className="offset-lg-1 col-sm-5">
-            <p><a href="#">Thời tiết</a></p>
-            <p><a href="#">Độ mặn</a></p>
+            <p>
+              <a href="#">Thời tiết</a>
+            </p>
+            <p>
+              <a href="#">Độ mặn</a>
+            </p>
           </div>
         </div>
       </div>

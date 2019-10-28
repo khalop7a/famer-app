@@ -9,10 +9,9 @@ class Salinity extends Component {
     return (
       <div className="">
         <div className="text-center">
-          <h2>Độ mặn</h2>
-          <p>35%</p>
+          <h5 className="text-warning">Độ mặn</h5>
+          <h1 className="text-info">35%</h1>
         </div>
-
       </div>
     );
   }
