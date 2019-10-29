@@ -42,7 +42,6 @@ class Body extends Component {
                         <div className="text-center"><h1 style={{fontWeight: 'bold'}}><span className="text-info">LỢI ÍCH </span><span>từ</span><span
                             className="text-warning"> STFARM</span></h1></div>
                         <div className="row">
-                            <div className="col-5 text-center"><img src="picture-stfarm/value.png"/></div>
                             <div className="col">
                                 <div className="text-left">
                                     <p>Kết nối nông dân với chuyên gia, nhà cung cấp và đại lí</p>
@@ -50,6 +49,7 @@ class Body extends Component {
                                     <p>Kiểm định chất lượng tôm</p>
                                 </div>
                             </div>
+                            <div className="col-5 text-center"><img src="picture-stfarm/value.png"/></div>
                         </div>
                     </div>
                 </div>
@@ -61,6 +61,7 @@ class Body extends Component {
                     </h1>
                     </div>
                     <div className="row">
+                        <div className="col-5 text-center"><img src="/picture-stfarm/value.png"/></div>
                         <div className="col">
                             <div className="text-left">
                                 <ol>
@@ -71,7 +72,6 @@ class Body extends Component {
                                 </ol>
                             </div>
                         </div>
-                        <div className="col-5 text-center"><img src="picture-stfarm/value.png"/></div>
                     </div>
                 </div>
                 {/*END*/}
@@ -146,15 +146,15 @@ class Body extends Component {
                     {/*<div class="row">*/}
                     <div className="container" style={{marginLeft: '10%'}}>
                         <div className="row">
-                            <div className="col-6 icon"><img src="picture-stfarm/Asset%205.png"/> Trợ giúp kinh doanh
+                            <div className="col-6 icon"><img src="/picture-stfarm/Asset%205.png"/> Trợ giúp kinh doanh
                             </div>
-                            <div className="col icon"><img src="picture-stfarm/Asset%206.png"/> Nền tảng số</div>
+                            <div className="col icon"><img src="/picture-stfarm/Asset%206.png"/> Nền tảng số</div>
                         </div>
                         <div className="row">
-                            <div className="col-6 icon"><img src="picture-stfarm/Asset%208.png"/> Lời khuyên từ chuyên
+                            <div className="col-6 icon"><img src="/picture-stfarm/Asset%208.png"/> Lời khuyên từ chuyên
                                 gia
                             </div>
-                            <div className="col icon"><img src="picture-stfarm/Asset%207.png"/> Hỗ trợ từ chính quyền
+                            <div className="col icon"><img src="/picture-stfarm/Asset%207.png"/> Hỗ trợ từ chính quyền
                             </div>
                         </div>
                     </div>
