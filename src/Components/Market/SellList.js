@@ -13,11 +13,11 @@ class SellList extends Component {
   }
   render() {
     return (
-      <div className="bg-light col-sm-8 offset-lg-2">
+      <div className="bg-white">
         <SellListItem />
         <SellListItem />
         <SellListItem />
-        {/* <SellListItemDetail /> */}
+        <SellListItemDetail />
       </div>
     );
   }
