@@ -32,7 +32,7 @@ class SignIn extends Component {
 
         return (
             <form onSubmit={this.handleSubmit} className="FormFields" onSubmit={this.handleSubmit}>
-                <div className="bg-white col-sm-8 offset-lg-2 p-3">
+                <div className="bg-white col-sm-6 offset-lg-3 p-3">
 
                     <div className="text-stfarm text-center">
                         <div>
@@ -41,31 +41,31 @@ class SignIn extends Component {
                     </div>
 
                     <div className="form-group row">
-                        <label className="control-label offset-lg-1 col-sm-2" htmlFor="userName">Tên đăng nhập</label>
+                        <label className="control-label offset-lg-1 col-sm-3" htmlFor="userName">Tên đăng nhập</label>
                         <div className="col-sm-7">
                             <input type="text" className="form-control" id="userName" name="userName" required value={this.state.userName} onChange={this.handleChange} />
                         </div>
                         <p className="text-danger">(*)</p>
                     </div>
                     <div className="form-group row">
-                        <label className="control-label offset-lg-1 col-sm-2" htmlFor="pwd">Mật khẩu</label>
+                        <label className="control-label offset-lg-1 col-sm-3" htmlFor="pwd">Mật khẩu</label>
                         <div className="col-sm-7">
                             <input type="password" className="form-control" id="pwd" name="pwd" required value={this.state.pwd} onChange={this.handleChange} />
                         </div>
                         <p className="text-danger">(*)</p>
                     </div>
                     <div className="form-group row">
-                        <div className="offset-lg-3 col-sm-7">
+                        <div className="offset-lg-4 col-sm-7">
                             <p><a href="#">Quên mật khẩu?</a></p>
                         </div>
                     </div>
                     <div className="form-group row">
-                        <div className="offset-lg-3 col-sm-7">
+                        <div className="offset-lg-4 col-sm-7">
                             <button type="submit" className="btn btn-warning btn-lg btn-block" id="btnSignIn">Đăng nhập</button>
                         </div>
                     </div>
                     <div className="form-group row">
-                        <div className="offset-lg-3 col-sm-7">
+                        <div className="offset-lg-4 col-sm-7">
                             <p>Chưa có tài khoản? <a href="#">Đăng ký ngay!</a></p>
                         </div>
                     </div>

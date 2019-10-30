@@ -24,7 +24,10 @@ class Map extends Component {
       maxNativeZoom: 15,
       detectRetina: true,
     }).addTo(this.map);
+    L.marker([10.123,105.13]).addTo(this.map);
+    L.marker([10.1513133,165.13]).addTo(this.map);
   }
+
 
   render() {
     return (
