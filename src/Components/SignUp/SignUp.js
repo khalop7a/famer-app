@@ -36,11 +36,11 @@ class SignUp extends Component {
         style={{ marginTop: "80px", marginBottom: "30px", minHeight: "85vh" }}
       >
         <div
-          className="col-sm-5 d-flex justify-content-center align-items-cente"
+          className="col-sm-5 d-flex justify-content-center"
           style={{ backgroundImage: "radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%)" }}
         >
           <div className="d-flex justify-content-center align-items-center flex-column">
-            <img src="/picture-stfarm/signup-icon.png" alt="signup-icon" width="120px" />
+            <img src="/picture-stfarm/signup-icon.png" alt="signup-icon" width="100px" />
             <h1 className="text-white my-3 text-center">
               <strong>
                 ĐĂNG KÝ <br />

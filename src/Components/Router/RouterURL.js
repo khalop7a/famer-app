@@ -6,7 +6,9 @@ import ShrimpSale from "../Post/ShrimpSale/ShrimpSale";
 import ShrimpAds from "../Post/ShrimpAds/ShrimpAds";
 import SignIn from "../SignIn/SignIn";
 import SignUp from "../SignUp/SignUp";
-import SellList from "../Market/SellList";
+import BuyList from "../Market/ShrimpBuyList/BuyList";
+import SaleList from "../Market/ShrimpSaleList/SaleList.js";
+import AdsList from "../Market/ShrimpAdsList/AdsList.js";
 class RouterURL extends Component {
   render() {
     return (
@@ -18,8 +20,9 @@ class RouterURL extends Component {
           <Route path="/dang-tin/quang-cao" component={ShrimpAds} />
           <Route path="/sign-in" component={SignIn} />
           <Route path="/sign-up" component={SignUp} />
-          <Route path="/thi-truong/ban-tom" component={SellList} />
-          <Route path="/thi-truong/mua-tom" component={SellList} />
+          <Route path="/thi-truong/ban-tom" component={SaleList} />
+          <Route path="/thi-truong/mua-tom" component={BuyList} />
+          <Route path="/thi-truong/quang-cao" component={AdsList} />
           <Route component={Body} />
         </Switch>
       </div>

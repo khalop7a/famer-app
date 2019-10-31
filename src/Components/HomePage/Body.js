@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Banner from "./Banner";
+import { Link } from "react-router-dom";
 class Body extends Component {
   constructor(props) {
     super(props);
@@ -34,8 +35,12 @@ class Body extends Component {
                   người mua bán tôm giống
                 </div>
                 <div className="my-auto row container">
-                  <div className="align-content-lg-center btn btn-outline-info mx-3">Tìm hiểu thị trường</div>
-                  <div className="align-content-lg-center btn btn-outline-info">Tìm hiểu STFARM</div>
+                  <Link to="/thi-truong/ban-tom" style={{ textDecoration: "none" }}>
+                    <div className="align-content-lg-center btn btn-outline-info mx-3">Tìm hiểu thị trường</div>
+                  </Link>
+                  <Link to="/" style={{ textDecoration: "none" }}>
+                    <div className="align-content-lg-center btn btn-outline-info mx-3">Tìm hiểu STFARM</div>
+                  </Link>
                 </div>
               </div>
             </div>

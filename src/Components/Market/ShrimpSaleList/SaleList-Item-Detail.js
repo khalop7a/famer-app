@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class SellListItem extends Component {
+class SaleListItemDetail extends Component {
   constructor(props) {
     super(props);
     this.state = { isShowInfo: false };
@@ -126,4 +126,4 @@ class SellListItem extends Component {
   }
 }
 
-export default SellListItem;
+export default SaleListItemDetail;

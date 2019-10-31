@@ -1,16 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faEdit,
-  faUserAlt,
-  faPhoneAlt,
-  faPhoneSquareAlt,
-  faMailBulk,
-  faFileWord,
-  faAt,
-  faGlobe
-} from "@fortawesome/free-solid-svg-icons";
+import { faPhoneSquareAlt, faAt, faGlobe } from "@fortawesome/free-solid-svg-icons";
 class Footer extends Component {
   constructor(props) {
     super(props);
@@ -26,13 +17,13 @@ class Footer extends Component {
               <h4 style={{ fontWeight: "bold" }}>
                 <p>GIỚI THIỆU</p>
               </h4>
-              <Link to="/">
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <p className="text-white">Về STFARM</p>
               </Link>
-              <Link to="/ve-chung-toi">
+              <Link to="/ve-chung-toi" style={{ textDecoration: "none" }}>
                 <p className="text-white">Thành viên</p>
               </Link>
-              <Link to="/">
+              <Link to="/" style={{ textDecoration: "none" }}>
                 <p className="text-white">Hỏi đáp</p>
               </Link>
             </div>
@@ -61,7 +52,7 @@ class Footer extends Component {
               <form>
                 <input type="text" name="your-email" placeholder="Email của bạn" className="form-control" />
                 <br />
-                <textarea className="form-control" rows="3"></textarea>
+                <textarea className="form-control" rows="3" placeholder="Góp ý ..."></textarea>
                 <br />
                 <button type="submit" value className="btn btn-light">
                   GỬI
