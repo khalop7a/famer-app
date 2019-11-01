@@ -1,5 +1,7 @@
 import React, { Component } from "react";
-
+import { Link } from "react-router-dom";
+import BuyListCart from "./BuyList-Cart";
+import SaleListCard from "../ShrimpSaleList/SaleList-Cart";
 class BuyListItemDetail extends Component {
   constructor(props) {
     super(props);
@@ -24,102 +26,126 @@ class BuyListItemDetail extends Component {
     var info = null;
     if (this.state.isShowInfo) {
       info = (
-        <table className="table-sm" width="100%">
-          <tbody>
-            <tr>
-              <td width="60%">Số điện thoại: </td>
-              <td>09090 0909090</td>
-            </tr>
-            <tr>
-              <td>Địa chỉ: </td>
-              <td>Sóc Trăng</td>
-            </tr>
-            <tr>
-              <td>Người bán: </td>
-              <td>Nguyễn Văn A</td>
-            </tr>
-          </tbody>
-        </table>
+        <div>
+          <hr />
+          <table className="table-sm" width="100%">
+            <tbody>
+              <tr>
+                <td width="50%">Số điện thoại </td>
+                <td>09090 0909090</td>
+              </tr>
+              <tr>
+                <td>Địa chỉ </td>
+                <td>Sóc Trăng</td>
+              </tr>
+              <tr>
+                <td>Người mua </td>
+                <td>Nguyễn Văn B</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       );
     }
 
     return (
-      <div className="col-sm-10 offset-lg-1 p-3 bg-white mb-4">
-        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-            <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-            <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-          </ol>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img
-                className="d-block w-100"
-                src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
-                alt="First slide"
-              />
+      <div className="d-flex align-item-center justify-content-center ">
+        <div className="col-sm-8 p-3 ">
+          <nav aria-label="breadcrumb" className="bg-white">
+            <ol className="breadcrumb bg-white">
+              <li className="breadcrumb-item">
+                <Link to="/thi-truong">Thị trường</Link>
+              </li>
+              <li className="breadcrumb-item">
+                <Link to="/thi-truong/mua-tom">Mua tôm</Link>
+              </li>
+              <li className="breadcrumb-item active" aria-current="page">
+                Chi tiết
+              </li>
+            </ol>
+          </nav>
+          <div className="bg-white p-3">
+            <h5 className="text-muted small text-right">Đăng lúc 10:00 PM 31/10/2019</h5>
+            <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+              <div className="carousel-inner">
+                <div className="carousel-item active">
+                  <div
+                    className="thumbnail"
+                    style={{
+                      backgroundImage:
+                        "url(https://zdnet4.cbsistatic.com/hub/i/r/2018/03/27/4e89380f-459b-4caa-bee3-7f345cc91326/resize/770xauto/2746f095561dd9a3bb9232e31d60b83b/shrimpfarming.jpg)"
+                    }}
+                  />
+                </div>
+                <div className="carousel-item ">
+                  <div
+                    className="thumbnail"
+                    style={{
+                      backgroundImage:
+                        "url(https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/3/4/2/4/2594243-1-eng-GB/First-ASC-certified-shrimp-farm-in-Africa_wrbm_large.jpg)"
+                    }}
+                  />
+                </div>
+                <div className="carousel-item ">
+                  <div
+                    className="thumbnail"
+                    style={{
+                      backgroundImage:
+                        "url(https://static.intrafish.com/news/article1359463.ece5/BINARY/927f013cc6dd1905a3caed15d2fbc5e6)"
+                    }}
+                  />
+                </div>
+              </div>
+              <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span className="carousel-control-prev-icon" aria-hidden="true" />
+                <span className="sr-only">Previous</span>
+              </a>
+              <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span className="carousel-control-next-icon" aria-hidden="true" />
+                <span className="sr-only">Next</span>
+              </a>
             </div>
-            <div className="carousel-item">
-              <img
-                className="d-block w-100"
-                src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
-                alt="Second slide"
-              />
-            </div>
-            <div className="carousel-item">
-              <img
-                className="d-block w-100"
-                src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
-                alt="Third slide"
-              />
+            <div className="row my-3">
+              <div className="col-sm-10">
+                <table className="table-sm" width="100%">
+                  <tbody>
+                    <tr>
+                      <td width="50%">Loại tôm</td>
+                      <td className="text-info">
+                        <strong>Tôm càng xanh</strong>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Số lượng mua</td>
+                      <td>20 kg</td>
+                    </tr>
+                    <tr>
+                      <td>Thời gian dự tính mua</td>
+                      <td>08/10/2019</td>
+                    </tr>
+                    <tr>
+                      <td className="align-top">Ghi chú</td>
+                      <td className="text-justify">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis orci sem. Nullam rutrum
+                        bibendum rhoncus. Duis ultrices tellus consequat, sodales nisl id, vehicula purus. Donec eu
+                        ipsum tincidunt, vestibulum magna eu, efficitur ipsum. Suspendisse odio tellus,
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                {info}
+              </div>
+              <div className="col-sm-2">
+                <button className="btn btn-info" onClick={this.showInfo}>
+                  Liên hệ
+                </button>
+              </div>
             </div>
           </div>
-          <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="sr-only">Previous</span>
-          </a>
-          <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="sr-only">Next</span>
-          </a>
         </div>
-        <div className="row">
-          <div className="col-sm-10">
-            <table className="table-sm" width="100%">
-              <tbody>
-                <tr>
-                  <td width="60%">Loại tôm</td>
-                  <td className="text-primary">
-                    <strong>Tôm càng xanh</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Giá</td>
-                  <td className="text-danger">
-                    <strong>200.000 đồng/kg</strong>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Loại kích thước</td>
-                  <td>Nhỏ</td>
-                </tr>
-                <tr>
-                  <td>Sản lượng ước tính lúc thu hoạch</td>
-                  <td>20 kg</td>
-                </tr>
-                <tr>
-                  <td>Thời gian dự tính lúc thu hoạch</td>
-                  <td>08/10/2019</td>
-                </tr>
-              </tbody>
-            </table>
-            {info}
-          </div>
-          <div>
-            <button className="btn btn-info" onClick={this.showInfo}>
-              Liên hệ
-            </button>
-          </div>
+        <div className="col-sm-3">
+          <BuyListCart />
+          <SaleListCard />
         </div>
       </div>
     );

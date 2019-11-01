@@ -67,11 +67,6 @@ class SaleListItemDetail extends Component {
           <div className="bg-white p-3">
             <h5 className="text-muted small text-right">Đăng lúc 10:00 PM 31/10/2019</h5>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-              <ol className="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to={0} className="active" />
-                <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-                <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-              </ol>
               <div className="carousel-inner">
                 <div className="carousel-item active">
                   <div
