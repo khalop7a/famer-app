@@ -20,19 +20,19 @@ class BuyListCart extends Component {
         <div className="p-2">
           <ul style={{ listStyleType: "none" }}>
             <li className="py-2">
-              <a href="#">Tôm sú 30 con/kg Tôm sú 30 con/kg</a>
+              <Link to="/thi-truong/mua-tom/chi-tiet">Tôm sú 30 con/kg</Link>
             </li>
             <li className="py-2">
-              <a href="#">Tôm sú 30 con/kg</a>
+              <Link to="/thi-truong/mua-tom/chi-tiet">Tôm sú 30 con/kg</Link>
             </li>
             <li className="py-2">
-              <a href="#">Tôm sú 30 con/kg</a>
+              <Link to="/thi-truong/mua-tom/chi-tiet">Tôm sú 30 con/kg</Link>
             </li>
             <li className="py-2">
-              <a href="#">Tôm sú 30 con/kg</a>
+              <Link to="/thi-truong/mua-tom/chi-tiet">Tôm sú 30 con/kg</Link>
             </li>
             <li className="py-2">
-              <a href="#">Tôm sú 30 con/kg</a>
+              <Link to="/thi-truong/mua-tom/chi-tiet">Tôm sú 30 con/kg</Link>
             </li>
             <li className="py-2">
               <Link to="/thi-truong/mua-tom" style={{ textDecoration: "none" }}>

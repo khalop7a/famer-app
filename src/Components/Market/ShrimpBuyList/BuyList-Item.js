@@ -34,7 +34,7 @@ class BuyListItem extends Component {
                 </h5>
                 <h5 className="text-muted small">10:00 PM 31/10/2019</h5>
               </div>
-              <div className>
+              <div>
                 <p>Loại kích thước : nhỏ</p>
                 <p>Thời gian dự tính thu hoạch : 08/10/2019</p>
               </div>

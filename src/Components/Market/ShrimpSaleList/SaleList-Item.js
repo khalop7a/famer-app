@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Heart } from "react-feather";
+import { Link } from "react-router-dom";
 
 class SaleListItem extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class SaleListItem extends Component {
             <div className="col-sm-8">
               <div className="d-flex">
                 <h5 className="mr-auto">
-                  <a href="#">Tôm sú 30 con/kg</a>
+                  <Link to="/thi-truong/ban-tom/chi-tiet">Tôm sú 30 con/kg</Link>
                 </h5>
                 <h5 className="text-muted small">10:00 PM 31/10/2019</h5>
               </div>
