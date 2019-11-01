@@ -37,7 +37,7 @@ class SignUpFarmerForm extends Component {
     return (
       <form onSubmit={this.handleSubmit} className="" style={{ margin: "auto" }}>
         <div className="form-group d-flex">
-          <span className="text-danger">(*) </span>
+          <span className="text-danger">(*) &nbsp; </span>
           <span> Vui lòng điền những thông tin bắt buộc</span>
         </div>
 

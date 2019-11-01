@@ -34,7 +34,16 @@ class SignUpIndex extends Component {
   }
 
   render() {
-    return <h1>Index</h1>;
+    return (
+      <div className="d-flex justify-content-center align-items-center flex-column " style={{ marginTop: "auto" }}>
+        <h2 className="text-center my-3">
+          Đăng ký ngay để trở thành <br />
+          thành viên
+        </h2>
+        <img src="/picture-stfarm/logo-lg.png" alt="logo-stfarm" width="150px" className="my-3" />
+        <img src="/picture-stfarm/left-arrow.png" alt="back-icon" width="50px" />
+      </div>
+    );
   }
 }
 export default SignUpIndex;
