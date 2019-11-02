@@ -13,7 +13,7 @@ class SaleListCart extends Component {
   }
   render() {
     return (
-      <div className="bg-white my-3">
+      <div className="bg-white my-3 border">
         <div className="bg-info p-2 text-center text-white" style={{ fontWeight: 500 }}>
           THỊ TRƯỜNG BÁN TÔM
         </div>

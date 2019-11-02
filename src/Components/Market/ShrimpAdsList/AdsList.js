@@ -17,8 +17,8 @@ class AdsList extends Component {
     return (
       <div className="d-flex align-item-center justify-content-center ">
         <div className="col-sm-6">
-          <nav aria-label="breadcrumb" className="my-3">
-            <ol className="breadcrumb bg-white">
+          <nav aria-label="breadcrumb" className="my-3 ">
+            <ol className="breadcrumb bg-white ">
               <li className="breadcrumb-item">
                 <a href="/thi-truong">Thị trường</a>
               </li>

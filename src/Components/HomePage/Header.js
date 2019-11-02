@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEdit, faUserAlt } from "@fortawesome/free-solid-svg-icons";
+import { faEdit, faUserAlt, faInfoCircle, faSignInAlt, faUsersCog } from "@fortawesome/free-solid-svg-icons";
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -133,6 +133,27 @@ class Header extends Component {
                 <FontAwesomeIcon icon={faEdit} className="mr-2" />
                 Đăng kí
               </NavLink>
+            </li>
+            <li className="nav-item dropdown">
+              <NavLink
+                className="nav-link text-white"
+                to="/user"
+                activeStyle={{ fontWeight: "500", backgroundColor: "#5c5c5c" }}
+                data-toggle="dropdown"
+              >
+                <FontAwesomeIcon icon={faUsersCog} className="mr-2" />
+                User
+              </NavLink>
+              <div className="dropdown-menu dropdown-menu-right">
+                <NavLink className="dropdown-item" to="/user/user-info">
+                  Thông tin
+                  <FontAwesomeIcon icon={faInfoCircle} className="ml-2" />
+                </NavLink>
+                <NavLink className="dropdown-item" to="/">
+                  Đăng xuất
+                  <FontAwesomeIcon icon={faSignInAlt} className="ml-2" />
+                </NavLink>
+              </div>
             </li>
           </ul>
         </div>

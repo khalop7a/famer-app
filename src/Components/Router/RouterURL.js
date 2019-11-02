@@ -11,7 +11,9 @@ import SaleList from "../Market/ShrimpSaleList/SaleList";
 import AdsList from "../Market/ShrimpAdsList/AdsList";
 import SaleListItemDetail from "../Market/ShrimpSaleList/SaleList-Item-Detail";
 import BuyListItemDetail from "../Market/ShrimpBuyList/BuyList-Item-Detail";
-import AdsListItemDetail from "../Market/ShrimpAdsList/AdsList-Item-Detail.js";
+import AdsListItemDetail from "../Market/ShrimpAdsList/AdsList-Item-Detail";
+import UserInfo from "../User/User-Info";
+import UserInfoEdit from "../User/User-Info-Edit";
 class RouterURL extends Component {
   render() {
     return (
@@ -35,6 +37,9 @@ class RouterURL extends Component {
           <Route exact path="/thi-truong/quang-cao" component={AdsList} />
           <Route exact path="/thi-truong/quang-cao/chi-tiet" component={AdsListItemDetail} />
           {/*--------------------------------------Market routes end ------------------------*/}
+          {/*--------------------------------------User start ------------------------*/}
+          <Route exact path="/user/user-info" component={UserInfo} />
+          <Route exact path="/user/user-info/edit" component={UserInfoEdit} />
           <Route component={Body} />
         </Switch>
       </div>

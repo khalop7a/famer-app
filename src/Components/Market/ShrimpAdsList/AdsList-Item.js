@@ -16,15 +16,15 @@ class AdsListItem extends Component {
   }
   render() {
     return (
-      <div className="bg-white my-3">
+      <div className="bg-white my-3 border">
         <div className="p-3">
           <div className="row align-items-center my-3">
             <div className="col-sm-4">
-              <img
-                src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
-                className="img-fluid img-thumbnail"
-                alt="..."
-                width="200px"
+              <div
+                className="thumbnail-item"
+                style={{
+                  backgroundImage: "url(http://worldwideaquaculture.com/wp-content/uploads/2014/09/shrimp-header2.jpg)"
+                }}
               />
             </div>
             <div className="col-sm-8">
@@ -35,8 +35,8 @@ class AdsListItem extends Component {
                 <h5 className="text-muted small">10:00 PM 31/10/2019</h5>
               </div>
               <div>
-                <p>Loại kích thước : nhỏ</p>
-                <p>Thời gian dự tính thu hoạch : 08/10/2019</p>
+                <p>Số lượng mua tối thiểu : 20 kg</p>
+                <p>Giá / đơn vị : 1000 VND / con</p>
               </div>
             </div>
           </div>

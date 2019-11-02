@@ -32,8 +32,8 @@ class SignUp extends Component {
     }
     return (
       <div
-        className="col-sm-8 offset-lg-2 d-flex bg-white p-0"
-        style={{ marginTop: "80px", marginBottom: "30px", minHeight: "85vh" }}
+        className="col-sm-8 offset-lg-2 d-flex bg-white p-0 "
+        style={{ marginTop: "80px", marginBottom: "30px", minHeight: "85vh", boxShadow: "0px 2px 5px #d1d1d1" }}
       >
         <div
           className="col-sm-5 d-flex justify-content-center"

@@ -115,37 +115,31 @@ class Body extends Component {
                 <h5 className="text-center" style={{ fontWeight: "bold" }}>
                   Tôi là nông dân
                 </h5>
-                <p className="text-justify">
-                  <ul style={{ listStyleType: "none" }}>
-                    <li>Đăng tải thông tin tôm đang nuôi trồng</li>
-                    <li>Xem đơn hàng cần đặt mua từ đại lý</li>
-                    <li>Nhận hỗ trợ từ chuyên gia</li>
-                  </ul>
-                </p>
+                <div className="text-justify">
+                  <p>Đăng tải thông tin tôm đang nuôi trồng</p>
+                  <p>Xem đơn hàng cần đặt mua từ đại lý</p>
+                  <p>Nhận hỗ trợ từ chuyên gia</p>
+                </div>
               </div>
               <div className="col-sm-4">
                 <h5 className="text-center" style={{ fontWeight: "bold" }}>
                   Tôi là đại lý
                 </h5>
-                <p className="text-justify">
-                  <ul style={{ listStyleType: "none" }}>
-                    <li>Đăng tải thông tin tôm đang nuôi trồng</li>
-                    <li>Xem đơn hàng cần đặt mua từ đại lý</li>
-                    <li>Nhận hỗ trợ từ chuyên gia</li>
-                  </ul>
-                </p>
+                <div className="text-justify">
+                  <p>Đăng tải thông tin tôm đang nuôi trồng</p>
+                  <p>Xem đơn hàng cần đặt mua từ đại lý</p>
+                  <p>Nhận hỗ trợ từ chuyên gia</p>
+                </div>
               </div>
               <div className="col-sm-4">
                 <h5 className="text-center" style={{ fontWeight: "bold" }}>
                   Tôi là chuyên gia
                 </h5>
-                <p className="text-justify">
-                  <ul style={{ listStyleType: "none" }}>
-                    <li>Đăng tải thông tin tôm đang nuôi trồng</li>
-                    <li>Xem đơn hàng cần đặt mua từ đại lý</li>
-                    <li>Nhận hỗ trợ từ chuyên gia</li>
-                  </ul>
-                </p>
+                <div className="text-justify">
+                  <p>Đăng tải thông tin tôm đang nuôi trồng</p>
+                  <p>Xem đơn hàng cần đặt mua từ đại lý</p>
+                  <p>Nhận hỗ trợ từ chuyên gia</p>
+                </div>
               </div>
             </div>
           </div>

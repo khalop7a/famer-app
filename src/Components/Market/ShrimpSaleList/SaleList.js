@@ -15,7 +15,7 @@ class SaleList extends Component {
   render() {
     return (
       <div className="d-flex align-item-center justify-content-center ">
-        <div className="col-sm-6">
+        <div className="col-sm-6 ">
           <nav aria-label="breadcrumb" className="my-3">
             <ol className="breadcrumb bg-white">
               <li className="breadcrumb-item">

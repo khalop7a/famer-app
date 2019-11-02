@@ -16,15 +16,16 @@ class BuyListItem extends Component {
   }
   render() {
     return (
-      <div className="bg-white my-3">
+      <div className="bg-white my-3 border">
         <div className="p-3">
           <div className="row align-items-center my-3">
             <div className="col-sm-4">
-              <img
-                src="https://image.shutterstock.com/image-photo/beautiful-water-drop-on-dandelion-260nw-789676552.jpg"
-                className="img-fluid img-thumbnail"
-                alt="..."
-                width="200px"
+              <div
+                className="thumbnail-item"
+                style={{
+                  backgroundImage:
+                    "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShPAdMxnrF2l89Fd5hYKhgGEKMzDHVFbpzIv-1aZd8LEpnvnz81Q&s)"
+                }}
               />
             </div>
             <div className="col-sm-8">
@@ -35,8 +36,8 @@ class BuyListItem extends Component {
                 <h5 className="text-muted small">10:00 PM 31/10/2019</h5>
               </div>
               <div>
-                <p>Loại kích thước : nhỏ</p>
-                <p>Thời gian dự tính thu hoạch : 08/10/2019</p>
+                <p>Số lượng dự tính mua : 20 kg</p>
+                <p>Thời gian dự tính mua : 08/10/2019</p>
               </div>
             </div>
           </div>

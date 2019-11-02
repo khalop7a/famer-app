@@ -50,7 +50,7 @@ class BuyListItemDetail extends Component {
 
     return (
       <div className="d-flex align-item-center justify-content-center ">
-        <div className="col-sm-8 p-3 ">
+        <div className="col-sm-8 p-3">
           <nav aria-label="breadcrumb" className="bg-white">
             <ol className="breadcrumb bg-white">
               <li className="breadcrumb-item">
@@ -64,7 +64,7 @@ class BuyListItemDetail extends Component {
               </li>
             </ol>
           </nav>
-          <div className="bg-white p-3">
+          <div className="bg-white p-3 border">
             <h5 className="text-muted small text-right">Đăng lúc 10:00 PM 31/10/2019</h5>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">

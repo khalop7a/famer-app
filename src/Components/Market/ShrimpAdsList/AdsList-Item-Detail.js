@@ -57,14 +57,14 @@ class AdsListItemDetail extends Component {
                 <Link to="/thi-truong">Thị trường</Link>
               </li>
               <li className="breadcrumb-item">
-                <Link to="/thi-truong/mua-tom">Mua tôm</Link>
+                <Link to="/thi-truong/quang-cao">Quảng cáo</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Chi tiết
               </li>
             </ol>
           </nav>
-          <div className="bg-white p-3">
+          <div className="bg-white p-3 border">
             <h5 className="text-muted small text-right">Đăng lúc 10:00 PM 31/10/2019</h5>
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">
